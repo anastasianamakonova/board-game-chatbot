@@ -126,33 +126,32 @@ Procedure
    to begin again.
 
 Example:
-
-   User: /start
-   Bot: 🎲 Добро пожаловать в бот подбора настольных игр!
-         Я помогу найти игру по вашим предпочтениям.
-         👥 Сколько человек будет играть?
-   User: [clicks "4"]
-   Bot: 👥 Игроков: 4
-         ⏱️ Сколько времени у вас есть?
-   User: [clicks "⏱️ До 1 часа"]
-   Bot: 👥 Игроков: 4
-         ⏱️ Время: 60
-         📅 Какое возрастное ограничение?
-   User: [clicks "🧒 6+ (6-11 лет)"]
-   Bot: [shows family-friendly games for 4 players under 60 minutes]
+User: /start
+Bot: 🎲 Добро пожаловать в бот подбора настольных игр!
+Я помогу найти игру по вашим предпочтениям.
+👥 Сколько человек будет играть?
+User: [clicks "4"]
+Bot: 👥 Игроков: 4
+⏱️ Сколько времени у вас есть?
+User: [clicks "⏱️ До 1 часа"]
+Bot: 👥 Игроков: 4
+⏱️ Время: 60
+📅 Какое возрастное ограничение?
+User: [clicks "🧒 6+ (6-11 лет)"]
+Bot: [shows family-friendly games for 4 players under 60 minutes]
 
 Commands Reference
 
-/start - Begin a new game search 
-/cancel - Cancel current search and end conversation
+- /start - Begin a new game search 
+- /cancel - Cancel current search and end conversation
 
 Troubleshooting
 
 Problems and solutions:
-Bot does not respond - Send /start to restart the conversation
-No games found - Use "Не важно" (Not important) options for more results
-Buttons are not visible - Update Telegram app to the latest version
-Game description is cut off - Descriptions are limited to 500 characters in the current version
+- Bot does not respond - Send /start to restart the conversation
+- No games found - Use "Не важно" (Not important) options for more results
+- Buttons are not visible - Update Telegram app to the latest version
+- Game description is cut off - Descriptions are limited to 500 characters in the current version
 
 Additional Notes
 - The bot interface is in Russian language
