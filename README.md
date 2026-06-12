@@ -148,21 +148,11 @@ Commands Reference
 
 Troubleshooting
 
-+------------------------------------------+-----------------------------------------+
-| Problem                                  | Solution                                |
-+==========================================+=========================================+
-| Bot does not respond                     | Send `/start` to restart the          |
-|                                          | conversation                            |
-+------------------------------------------+-----------------------------------------+
-| No games found                           | Use "Не важно" (Not important) options  |
-|                                          | for more results                        |
-+------------------------------------------+-----------------------------------------+
-| Buttons are not visible                  | Update Telegram app to the latest       |
-|                                          | version                                 |
-+------------------------------------------+-----------------------------------------+
-| Game description is cut off              | Descriptions are limited to 500          |
-|                                          | characters in the current version       |
-+------------------------------------------+-----------------------------------------+
+Problems and solutions:
+Bot does not respond - Send /start to restart the conversation
+No games found - Use "Не важно" (Not important) options for more results
+Buttons are not visible - Update Telegram app to the latest version
+Game description is cut off - Descriptions are limited to 500 characters in the current version
 
 Additional Notes
 - The bot interface is in Russian language
