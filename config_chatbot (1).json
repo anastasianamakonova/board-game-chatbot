@@ -1,0 +1,28 @@
+{
+    "seed_urls": [
+        "https://hobbygames.ru/nastolnie",
+        "https://hobbygames.ru/nastolnie?page=2",
+        "https://hobbygames.ru/nastolnie?page=3",
+        "https://hobbygames.ru/nastolnie?page=4",
+        "https://hobbygames.ru/nastolnie?page=5",
+        "https://hobbygames.ru/nastolnie?page=6",
+        "https://hobbygames.ru/nastolnie?page=7",
+        "https://hobbygames.ru/nastolnie?page=8",
+        "https://hobbygames.ru/nastolnie?page=9",
+        "https://hobbygames.ru/nastolnie?page=10"
+    ],
+    "headers": {
+        "Accept-Language": "ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7",
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
+        "Accept-Encoding": "gzip, deflate, br",
+        "Connection": "keep-alive",
+        "Upgrade-Insecure-Requests": "1"
+    },
+    "total_articles_to_find_and_parse": 100,
+    "timeout": 30,
+    "request_delay": {
+        "min": 1.0,
+        "max": 2.5
+    },
+    "max_retries": 3
+}
