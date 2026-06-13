@@ -4,13 +4,13 @@ Board Game Bot - User Guide
 Concept Topic
 -------------
 
-Purpose
+### Purpose
 Board Game Bot is designed to help users find suitable board games based
 on their specific preferences. The bot eliminates the need to manually
 browse through hundreds of games by providing personalized
 recommendations through a simple question-answer interface.
 
-Target Audience
+### Target Audience
 This bot is intended for:
 - Board game enthusiasts looking for new games to play
 - Families choosing games for game nights
@@ -18,7 +18,7 @@ This bot is intended for:
 - Event organizers selecting games for parties or gatherings
 - Beginners who are not familiar with board game catalogues
 
-Context of Use
+### Context of Use
 Users interact with the bot when they:
 - Have a specific number of players (from 1 to 8+ people)
 - Have limited time for playing (from 30 minutes to 2+ hours)
