@@ -112,5 +112,4 @@ an inline keyboard (`InlineKeyboardMarkup`):
    "Up to 1 hour", "Up to 2 hours", or "Any").
 6. **Age Filter** — The user specifies the target age group (6+, 12+, 18+).
 7. **Results Display** — The bot processes the filters against the JSON data and presents game
-   matching cards featuring descriptions, prices, genres, and navigation buttons. The session can be
-   canceled at any stage using the `/cancel` command.
+   matching cards featuring descriptions, prices, genres, and navigation buttons.
