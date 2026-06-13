@@ -114,7 +114,7 @@ Procedure
 
 9. If no games are found
 
-   If the bot shows "Не нашлось игр под ваши критерии" (No games found):
+   If no games are found:
    - Send `/start` to begin a new search
    - Select fewer filters or use "Не важно" (Not important) options
    - Choose broader criteria (e.g., more players, longer duration)
