@@ -109,7 +109,8 @@ Procedure
 
    - `◀️ Предыдущая` (Previous) - shows the previous game
    - `Следующая ▶️` (Next) - shows the next game
-   - `🔄 Новый поиск` (New Search) - starts a new search from the beginning
+   - `🔄 Новый поиск` (New Search) - sends a message with the start command so
+     that the user sends it and starts a new search.
 
 9. If no games are found
 
@@ -117,13 +118,6 @@ Procedure
    - Send `/start` to begin a new search
    - Select fewer filters or use "Не важно" (Not important) options
    - Choose broader criteria (e.g., more players, longer duration)
-
-10. Cancel the search
-
-   To stop the current search at any time, send `/cancel` command.
-   
-   Expected result: The bot ends the conversation. Send `/start`
-   to begin again.
 
 Example:
 User: /start\
@@ -140,18 +134,12 @@ Bot: 👥 Игроков: 4\
 User: [clicks "🧒 6+ (6-11 лет)"]\
 Bot: [shows family-friendly games for 4 players under 60 minutes]
 
-Commands Reference
-
-- /start - Begin a new game search 
-- /cancel - Cancel current search and end conversation
-
 Troubleshooting
 
 Problems and solutions:
 - Bot does not respond - Send /start to restart the conversation
 - No games found - Use "Не важно" (Not important) options for more results
 - Buttons are not visible - Update Telegram app to the latest version
-- Game description is cut off - Descriptions are limited to 500 characters in the current version
 
 Additional Notes
 - The bot interface is in Russian language
