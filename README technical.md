@@ -25,7 +25,6 @@ Developers will read this documentation when they need to:
 - Understand how the scraping pipeline works
 - Modify filtering logic or add new criteria
 - Deploy the bot to a production environment
-- Debug issues with the Telegram conversation flow
 
 The bot consists of two main components:
 
